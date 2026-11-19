@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "rules_version": "1.0",
+  "generated_at_utc": "2026-11-19T00:42:25.204776+00:00",
+  "python_version": "3.12.14",
+  "input_path": "C:\\Users\\user\\Desktop\\Iris数据清洗小项目\\examples\\dirty_gb18030.csv",
+  "input_sha256": "3bf3bf18a730973934c78e96da2a5fbfe94bd2f1a82d9655bb6ab61f35d9cb87",
+  "input_encoding": "gb18030",
+  "input_has_header": true,
+  "output_encoding": "utf-8-sig",
+  "deduplicate": true,
+  "columns": [
+    "sepal_length_cm",
+    "sepal_width_cm",
+    "petal_length_cm",
+    "petal_width_cm",
+    "species"
+  ],
+  "input_records": 15,
+  "output_records": 4,
+  "invalid_records": 10,
+  "duplicate_records": 1,
+  "duplicates_removed": 1,
+  "rejected_records": 11,
+  "rejection_reasons": {
+    "duplicate": 1,
+    "empty_row": 1,
+    "invalid_number": 1,
+    "missing": 2,
+    "negative": 1,
+    "non_finite": 2,
+    "unknown_species": 1,
+    "wrong_column_count": 2
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "rules_version": "1.0",
+  "generated_at_utc": "2026-11-19T00:42:25.037646+00:00",
+  "python_version": "3.12.14",
+  "input_path": "C:\\Users\\user\\Desktop\\Iris数据清洗小项目\\data\\raw\\bezdekIris.data",
+  "input_sha256": "0fed2a99db77ec533a62dc66894d3ec6df3b58b6a8f3cf4a6b47e4086b7f97dc",
+  "input_encoding": "utf-8-sig",
+  "input_has_header": false,
+  "output_encoding": "utf-8-sig",
+  "deduplicate": false,
+  "columns": [
+    "sepal_length_cm",
+    "sepal_width_cm",
+    "petal_length_cm",
+    "petal_width_cm",
+    "species"
+  ],
+  "input_records": 151,
+  "output_records": 150,
+  "invalid_records": 1,
+  "duplicate_records": 1,
+  "duplicates_removed": 0,
+  "rejected_records": 1,
+  "rejection_reasons": {
+    "empty_row": 1
+  }
+}

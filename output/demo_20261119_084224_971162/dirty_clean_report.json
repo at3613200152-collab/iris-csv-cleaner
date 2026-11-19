@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "rules_version": "1.0",
+  "generated_at_utc": "2026-11-19T00:42:25.116928+00:00",
+  "python_version": "3.12.14",
+  "input_path": "C:\\Users\\user\\Desktop\\Iris数据清洗小项目\\examples\\dirty.csv",
+  "input_sha256": "ee14a23be01f579bbcbd668a22f8d24020a113eb44ddcd491a9a9d4965af5d64",
+  "input_encoding": "utf-8-sig",
+  "input_has_header": true,
+  "output_encoding": "utf-8-sig",
+  "deduplicate": true,
+  "columns": [
+    "sepal_length_cm",
+    "sepal_width_cm",
+    "petal_length_cm",
+    "petal_width_cm",
+    "species"
+  ],
+  "input_records": 15,
+  "output_records": 4,
+  "invalid_records": 10,
+  "duplicate_records": 1,
+  "duplicates_removed": 1,
+  "rejected_records": 11,
+  "rejection_reasons": {
+    "duplicate": 1,
+    "empty_row": 1,
+    "invalid_number": 1,
+    "missing": 2,
+    "negative": 1,
+    "non_finite": 2,
+    "unknown_species": 1,
+    "wrong_column_count": 2
+  }
+}

@@ -1,0 +1,12 @@
+﻿source_record,error,detail,raw_row
+3,duplicate,规范化后整行重复；已保留首次出现的记录,"[""5.1"", ""3.5"", ""1.4"", ""0.2"", ""Iris-setosa""]"
+4,missing,必填字段缺失：sepal_length_cm,"["""", ""3.2"", ""1.3"", ""0.2"", ""Iris-setosa""]"
+5,invalid_number,不能转换成数字：sepal_length_cm,"[""abc"", ""3.1"", ""1.5"", ""0.2"", ""Iris-setosa""]"
+6,negative,不允许负数：sepal_width_cm,"[""5.0"", ""-3.6"", ""1.4"", ""0.2"", ""Iris-setosa""]"
+7,non_finite,不允许 NaN 或无穷大：petal_length_cm,"[""5.4"", ""3.9"", ""NaN"", ""0.4"", ""Iris-setosa""]"
+8,unknown_species,品种不在允许的三个类别中,"[""4.6"", ""3.4"", ""1.4"", ""0.3"", ""未知品种""]"
+9,wrong_column_count,应有 5 列，实际有 4 列,"[""5.0"", ""3.4"", ""1.5"", ""0.2""]"
+11,missing,必填字段缺失：petal_width_cm,"[""4.4"", ""2.9"", ""1.4"", ""?"", ""Iris-setosa""]"
+13,wrong_column_count,应有 5 列，实际有 6 列,"[""4.9"", ""3.1"", ""1.5"", ""0.1"", ""Iris-setosa"", ""多余字段""]"
+14,non_finite,不允许 NaN 或无穷大：sepal_length_cm,"[""inf"", ""3.7"", ""1.5"", ""0.2"", ""Iris-setosa""]"
+15,empty_row,整行为空,[]

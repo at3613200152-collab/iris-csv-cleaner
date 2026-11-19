@@ -1,0 +1,89 @@
+{
+  "synthetic_errors": true,
+  "description": "下面的异常是为测试人工注入的，不能当成 UCI 原始数据质量结论。",
+  "original_sha256": "0fed2a99db77ec533a62dc66894d3ec6df3b58b6a8f3cf4a6b47e4086b7f97dc",
+  "expected_with_dedup": {
+    "input_records": 15,
+    "output_records": 4,
+    "invalid_records": 10,
+    "duplicates_removed": 1,
+    "rejected_records": 11
+  },
+  "records": [
+    {
+      "example_record": 1,
+      "source_record": 1,
+      "change": "正常记录"
+    },
+    {
+      "example_record": 2,
+      "source_record": 2,
+      "change": "增加首尾空白"
+    },
+    {
+      "example_record": 3,
+      "source_record": 1,
+      "change": "复制第 1 条"
+    },
+    {
+      "example_record": 4,
+      "source_record": 3,
+      "change": "清空第 1 列"
+    },
+    {
+      "example_record": 5,
+      "source_record": 4,
+      "change": "第 1 列改成 abc"
+    },
+    {
+      "example_record": 6,
+      "source_record": 5,
+      "change": "第 2 列改成负数"
+    },
+    {
+      "example_record": 7,
+      "source_record": 6,
+      "change": "第 3 列改成 NaN"
+    },
+    {
+      "example_record": 8,
+      "source_record": 7,
+      "change": "品种改成中文未知类别"
+    },
+    {
+      "example_record": 9,
+      "source_record": 8,
+      "change": "删除第 5 列"
+    },
+    {
+      "example_record": 10,
+      "source_record": 51,
+      "change": "正常记录"
+    },
+    {
+      "example_record": 11,
+      "source_record": 9,
+      "change": "第 4 列改成 ?"
+    },
+    {
+      "example_record": 12,
+      "source_record": 101,
+      "change": "正常记录"
+    },
+    {
+      "example_record": 13,
+      "source_record": 10,
+      "change": "追加多余列"
+    },
+    {
+      "example_record": 14,
+      "source_record": 11,
+      "change": "第 1 列改成 inf"
+    },
+    {
+      "example_record": 15,
+      "source_record": null,
+      "change": "追加空行"
+    }
+  ]
+}

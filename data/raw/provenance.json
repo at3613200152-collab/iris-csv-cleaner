@@ -1,0 +1,16 @@
+{
+  "dataset": "Iris",
+  "variant": "bezdekIris.data",
+  "source_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/bezdekIris.data",
+  "dataset_page": "https://archive.ics.uci.edu/dataset/53/iris",
+  "doi": "https://doi.org/10.24432/C56C76",
+  "citation": "Fisher, R. (1936). Iris [Dataset]. UCI Machine Learning Repository.",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "retrieved_at_utc": "2026-11-19T00:36:34.753306+00:00",
+  "sha256": "0fed2a99db77ec533a62dc66894d3ec6df3b58b6a8f3cf4a6b47e4086b7f97dc",
+  "bytes": 4551,
+  "records": 150,
+  "modified": false,
+  "note": "原始下载字节原样保存；人工构造的异常只存在于 examples 中。"
+}
